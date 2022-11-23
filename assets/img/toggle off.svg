@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 841.9 595.3" style="enable-background:new 0 0 841.9 595.3;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0C5C97;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#0C5C97;}
+	.st3{display:inline;fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;}
+	.st5{display:inline;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:12px;}
+</style>
+<g id="OFF">
+	<path class="st0" d="M346.2,261.3h-31c-18.4,0-33.4-14.9-33.4-33.4v-1.8c0-18.4,14.9-33.4,33.4-33.4h31c18.4,0,33.4,14.9,33.4,33.4
+		v1.8C379.6,246.4,364.7,261.3,346.2,261.3z"/>
+	<path d="M411,262.5h-94.9c-19.6,0-35.5-15.9-35.5-35.5s15.9-35.5,35.5-35.5H411c19.6,0,35.5,15.9,35.5,35.5S430.6,262.5,411,262.5z
+		 M316.1,194c-18.2,0-33.1,14.8-33.1,33.1c0,18.2,14.8,33.1,33.1,33.1H411c18.2,0,33.1-14.8,33.1-33.1c0-18.2-14.8-33.1-33.1-33.1
+		H316.1z"/>
+</g>
+<g id="ON" class="st1">
+	<path class="st2" d="M421.5,372.1h-70.2c-15,0-27.1-12.1-27.1-27.1v-2.1c0-15,12.1-27.1,27.1-27.1h70.2c15,0,27.1,12.1,27.1,27.1
+		v2.1C448.6,360,436.4,372.1,421.5,372.1z"/>
+	<path class="st3" d="M430.3,372.1h-78c-15.6,0-28.2-12.6-28.2-28.2v0c0-15.6,12.6-28.2,28.2-28.2h78c15.6,0,28.2,12.6,28.2,28.2v0
+		C458.5,359.5,445.9,372.1,430.3,372.1z"/>
+	<rect x="362.5" y="377.2" class="st4" width="69.3" height="14.5"/>
+	<text transform="matrix(1 0 0 1 362.5485 385.7115)" class="st5 st6 st7">toggle on</text>
+</g>
+</svg>
