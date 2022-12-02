@@ -57,8 +57,17 @@
   <div class="modal-container">
     <div class="overlay modal-trigger"></div>
     <div class="modal">
-      <button class="close-modal">X</button>
-      <h5>Contenue</h5>
+      <button class="close-modal modal-trigger">X</button>
+      <p><span class="material-symbols-outlined"> devices </span></p>
+      <style>
+        .material-symbols-outlined {
+          font-size: 40px;
+          width: 100%;
+          height: auto;
+          text-align: center;
+        }
+      </style>
+      <p class="TitlePrestation">UIUX design</p>
       <p>
         Une envie un projet web ou mobile ? Vous voulez la meilleurs expériences
         pour vos futurs clients mais ne savez pas comment faire ? Je vous
@@ -70,267 +79,356 @@
 
   <!--ModalEnd-->
 
-  <body>
-    <div class="cursor"></div>
-    <main>
-      <div class="container">
-        <video autoplay muted playsinline loop>
-          <source src="assets/img/étoiles_.mp4" type="video/mp4" />
-        </video>
-        <div class="overlayC">
-          <header>
-            <nav>
-              <!--Navigation par SideBar-->
-              <div class="sidenav">
-                <img src="assets/img/LogoClementL.png" alt="" />
-                <a href="#">Accueil</a>
-                <a href="#Apropos">A propos</a>
-                <a href="#services">Services</a>
-                <a href="#folio">Portfolio</a>
-                <a href="#contact">Contact</a>
-              </div>
-            </nav>
-            <!--Navigation par SideBar-->
-          </header>
-          <div class="cta">
-            <img src="assets/img/Astro-profil.gif" alt="" />
+  <!--Moda2-->
+  <div class="modal-containerdeux">
+    <div class="overlay modal-triggerdeux"></div>
+    <div class="modaldeux">
+      <button class="close-modal modal-triggerdeux">X</button>
+      <p><span class="material-symbols-outlined"> code </span></p>
+      <style>
+        .material-symbols-outlined {
+          font-size: 40px;
+          width: 100%;
+          height: auto;
+          text-align: center;
+        }
+      </style>
+      <p class="TitlePrestation">Intégration</p>
+      <p>
+        Une envie un projet web ou mobile ? Vous voulez la meilleurs expériences
+        pour vos futurs clients mais ne savez pas comment faire ? Je vous
+        garantis un accompagnement pour une création de projet au paroxysme de
+        vos attentes
+      </p>
+    </div>
+  </div>
 
-            <h1>Je réalise vos projets web ou mobile</h1>
-            <a href="#Apropos">En savoir d'avantage</a>
+  <!--Modal2End-->
+
+  <!--Modasuremesure-->
+  <div class="modal-containermesure">
+    <div class="overlay modal-triggermesure"></div>
+    <div class="modalmesure">
+      <button class="close-modal modal-triggermesure">X</button>
+      <p>
+        <span class="material-symbols-outlined"> person_search </span>
+      </p>
+      <style>
+        .material-symbols-outlined {
+          font-size: 40px;
+          width: 100%;
+          height: auto;
+          text-align: center;
+        }
+      </style>
+      <p class="TitlePrestation">SUR MESURES</p>
+      <p>
+        Une envie un projet web ou mobile ? Vous voulez la meilleurs expériences
+        pour vos futurs clients mais ne savez pas comment faire ? Je vous
+        garantis un accompagnement pour une création de projet au paroxysme de
+        vos attentes
+      </p>
+    </div>
+  </div>
+
+  <!--ModalSurmesuresEnd-->
+
+  <body class="light">
+    <div class="cursor"></div>
+
+    <main>
+      <div class="contenu">
+        <div class="container">
+          <video autoplay muted playsinline loop>
+            <source src="assets/img/étoiles_.mp4" type="video/mp4" />
+          </video>
+          <div class="overlayC">
+            <header>
+              <nav>
+                <!--Navigation par SideBar-->
+                <div class="sidenav">
+                  <img src="assets/img/Logo-ClémentLiagre.svg" alt="" />
+                  <a href="#">Accueil</a>
+                  <a href="#Apropos">A propos</a>
+                  <a href="#services">Services</a>
+                  <a href="#folio">Portfolio</a>
+                  <a href="#contact">Contact</a>
+                  <div class="night">
+                    <input
+                      type="checkbox"
+                      id="switch"
+                      class=".btn-toggle"
+                    /><label for="switch">Toggle</label>
+                  </div>
+                </div>
+              </nav>
+              <!--Navigation par SideBar-->
+            </header>
+            <div class="cta">
+              <img src="assets/img/Astro-profil.gif" alt="" />
+
+              <h1 class="dark">Je réalise vos projets web ou mobile</h1>
+              <a href="#Apropos">En savoir d'avantage</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="main">
-        <section id="Apropos">
-          <h2>A propos de moi ?</h2>
+        <div class="main">
+          <section id="Apropos">
+            <h2 class="dark">A propos de moi ?</h2>
 
-          <div class="content-about">
-            <div class="imgAstro">
-              <img src="assets/img/astro.png" alt="" />
-            </div>
-            <div class="aboutDesc">
-              <p>
-                Qui je suis ? Je suis un jeune astronaute ui designer qui en
-                plusieurs années s'est construit un petit univers de création et
-                vous en êtes au cœur ! la création de maquettes et leurs
-                intégrations sont mon domaine d’exploration quotidien. J’aime
-                m’aventurer dans l’inconnu et prendre connaissance des nouvelles
-                technologies et les mettre au service de vos projets pour vous
-                aider a faire grandir votre univers.
-              </p>
-              <div class="cv">
-                <a
-                  href="./assets/Download/CV_Clement_Liagre.pdf"
-                  target="_blank"
-                  >MON CV</a
-                >
+            <div class="content-about">
+              <div class="imgAstro">
+                <img src="assets/img/astro.png" alt="" />
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="services">
-          <h2>Services</h2>
-
-          <section id="services-container">
-            <div class="uiux-container">
-              <article class="service-article">
+              <div class="aboutDesc">
                 <p>
-                  <span class="material-symbols-outlined"> person_search </span>
+                  Qui je suis ? Je suis un jeune astronaute ui designer qui en
+                  plusieurs années s'est construit un petit univers de création
+                  et vous en êtes au cœur ! la création de maquettes et leurs
+                  intégrations sont mon domaine d’exploration quotidien. J’aime
+                  m’aventurer dans l’inconnu et prendre connaissance des
+                  nouvelles technologies et les mettre au service de vos projets
+                  pour vous aider a faire grandir votre univers.
                 </p>
-                <p class="TitlePrestation">Sur mesures</p>
-
-                <p class="LesProjets">
-                  Un mixte des 2 offres ? Une envie spécifique ? Reçu 5/5 je..
-                  m'en.. charge !
-                </p>
-                <button class="prestations">Voir plus</button>
-              </article>
-            </div>
-
-            <div class="OrionGo">
-              <article class="service-article">
-                <p><span class="material-symbols-outlined"> devices </span></p>
-                <style>
-                  .material-symbols-outlined {
-                    font-size: 40px;
-                    width: 100%;
-                    height: auto;
-                    text-align: center;
-                  }
-                </style>
-                <p class="TitlePrestation">UIUX design</p>
-                <p class="LesProjets">
-                  Une envie un projet web ou mobile ? Vous voulez la meilleurs
-                  expériences...
-                </p>
-                <button class="modal-btn modal-trigger">Voir plus</button>
-              </article>
-            </div>
-
-            <div class="OrionGo">
-              <article class="service-article">
-                <p><span class="material-symbols-outlined"> code </span></p>
-                <p class="TitlePrestation">integration web</p>
-                <p class="LesProjets">
-                  Les maquettes, c'est joli mais… Une maquette réalisée et
-                  intégrée avec un référencement au top c'est encore mieux !
-                  Dans cet univers il est aussi possible de rendre réel ce
-                  projets !
-                </p>
-                <button class="prestations">Voir plus</button>
-              </article>
+                <div class="cv">
+                  <a
+                    href="./assets/Download/CV_Clement_Liagre.pdf"
+                    target="_blank"
+                    >MON CV</a
+                  >
+                </div>
+              </div>
             </div>
           </section>
-          <!-- faire une modale vuejs-->
-        </section>
 
-        <section id="folio">
-          <h2>portfolio</h2>
-          <section id="uiuxweb">
-            <!--container des article-->
-            <section id="web-container">
-              <div class="mme-container">
-                <article class="article">
-                  <img src="assets/img/luli.png" alt="" />
-                </article>
-                <a id="more" href="https://lulipack.fr/">Web : Lulipack</a>
-              </div>
+          <section id="services">
+            <h2 class="dark">Services</h2>
 
-              <div class="sorec-container">
-                <article class="article" data-aos="fade-left">
-                  <img src="assets/img/web sorec.png" alt="" />
-                </article>
-                <a id="more" href="https://sorec-etancheite.fr/" target="_blank"
-                  >Web : Sorec</a
-                >
-              </div>
+            <section id="services-container">
+              <div class="uiux-container">
+                <article class="service-article">
+                  <p>
+                    <span class="material-symbols-outlined">
+                      person_search
+                    </span>
+                  </p>
+                  <p class="TitlePrestation">Sur mesures</p>
 
-              <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/UIspotify.png" alt="" />
+                  <p class="LesProjets">
+                    Un mixte des 2 offres ? Une envie spécifique ? Reçu 5/5 je..
+                    m'en.. charge !
+                  </p>
+                  <button class="modal-btn modal-triggermesure">
+                    Voir plus
+                  </button>
                 </article>
-                <a
-                  id="more"
-                  href="https://clementlii.github.io/Spotify/"
-                  target="_blank"
-                  >Web : reDev spotify (In progress)</a
-                >
               </div>
 
               <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/WebMme.png" alt="" />
+                <article class="service-article">
+                  <p>
+                    <span class="material-symbols-outlined"> devices </span>
+                  </p>
+                  <style>
+                    .material-symbols-outlined {
+                      font-size: 40px;
+                      width: 100%;
+                      height: auto;
+                      text-align: center;
+                    }
+                  </style>
+                  <p class="TitlePrestation">UIUX design</p>
+                  <p class="LesProjets">
+                    Une envie un projet web ou mobile ? Vous voulez la meilleurs
+                    expériences...
+                  </p>
+                  <button class="modal-btn modal-trigger">Voir plus</button>
                 </article>
-                <a id="more" href="https://mme-bistro.com/" target="_blank"
-                  >Web : Mme Bistro
-                </a>
               </div>
 
               <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/cook_presentation.png" alt="" />
+                <article class="service-article">
+                  <p><span class="material-symbols-outlined"> code </span></p>
+                  <p class="TitlePrestation">integration web</p>
+                  <p class="LesProjets">
+                    Les maquettes, c'est joli mais… Une maquette réalisée et
+                    intégrée avec un référencement...
+                  </p>
+                  <button class="modal-btn modal-triggerdeux">Voir plus</button>
                 </article>
-                <a
-                  id="more"
-                  href="https://clementlii.github.io/cook-you.github.io/"
-                  target="_blank"
-                  >Web : Cook & You
-                </a>
-              </div>
-
-              <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/orioapp_presentation.png" alt="" />
-                </article>
-                <a
-                  id="more"
-                  href="https://www.behance.net/gallery/126917329/UI-design-for-orion-go-%28app%29/"
-                  target="_blank"
-                  >UI : OrionGo
-                </a>
-              </div>
-
-              <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/presentation urssaf.png" alt="" />
-                </article>
-                <a
-                  id="more"
-                  href="https://www.behance.net/gallery/138541157/UI-Redesign-application-URSSAF-%28Fr%29"
-                  target="_blank"
-                  >UI : URSAFF
-                </a>
-              </div>
-
-              <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/uiFoodApp.png" alt="" />x@
-                </article>
-                <a
-                  id="more"
-                  href="https://www.behance.net/gallery/136479215/UI-Application-de-recettes-%28fr%29"
-                  target="_blank"
-                  >UI : Food app
-                </a>
-              </div>
-
-              <div class="OrionGo">
-                <article class="article">
-                  <img src="assets/img/uiFoodApp.png" alt="" />
-                </article>
-                <a
-                  id="more"
-                  href="https://www.behance.net/gallery/136479215/UI-Application-de-recettes-%28fr%29"
-                  target="_blank"
-                  >UI : Food app
-                </a>
               </div>
             </section>
+            <!-- faire une modale vuejs-->
           </section>
-        </section>
 
-        <section id="contact">
-          <!--title-->
-          <h2>contact</h2>
-          <div class="contactContainer">
-            <div class="form">
-              <div class="containerform">
-                <form action="send.php">
-                  <input
-                    type="text"
-                    id="fname"
-                    name="firstname"
-                    placeholder="Votre nom et prénom"
-                  />
-                  <select name="prestation" id="selectionprestation">
-                    <option value="">Votre prestation</option>
-                    <option value="uiux">UI/UX design</option>
-                    <option value="inte">Intégration</option>
-                    <option value="Mesures">Sur mesures</option>
-                    <option value="Autre">Autre ?</option>
-                  </select>
+          <section id="folio">
+            <h2 class="dark">portfolio</h2>
+            <section id="uiuxweb">
+              <!--container des article-->
+              <section id="web-container">
+                <div class="mme-container">
+                  <article class="article">
+                    <img
+                      src="assets/img/luli.png"
+                      alt="Image de présentation de proejt Lulipack"
+                    />
+                  </article>
+                  <a id="more" href="https://lulipack.fr/">Web : Lulipack</a>
+                </div>
 
-                  <input
-                    id="emailAddress"
-                    type="email"
-                    name="email"
-                    placeholder="Votre email"
-                  />
+                <div class="sorec-container">
+                  <article class="article" data-aos="fade-left">
+                    <img
+                      src="assets/img/web sorec.png"
+                      alt="Image de présentation de proejt Sorec"
+                    />
+                  </article>
+                  <a
+                    id="more4"
+                    href="https://sorec-etancheite.fr/"
+                    target="_blank"
+                    >Web : Sorec</a
+                  >
+                </div>
 
-                  <textarea
-                    id="subject"
-                    name="subject"
-                    placeholder="Votre message"
-                    style="height: 200px"
-                  ></textarea>
+                <div class="OrionGo">
+                  <article class="article">
+                    <img
+                      src="assets/img/UIspotify.png"
+                      alt="Image de présentation de proejt dev Spotify"
+                    />
+                  </article>
+                  <a
+                    id="more1"
+                    href="https://clementlii.github.io/Spotify/"
+                    target="_blank"
+                    >Web : reDev spotify (In progress)</a
+                  >
+                </div>
 
-                  <input type="submit" value="Envoyer" />
-                </form>
+                <div class="OrionGo">
+                  <article class="article">
+                    <img
+                      src="assets/img/WebMme.png"
+                      alt="Image de présentation de proejt MmeBistro"
+                    />
+                  </article>
+                  <a id="more2" href="https://mme-bistro.com/" target="_blank"
+                    >Web : Mme Bistro
+                  </a>
+                </div>
+
+                <div class="OrionGo">
+                  <article class="article">
+                    <img
+                      src="assets/img/cook_presentation.png"
+                      alt="Photo de présentation application recette"
+                    />
+                  </article>
+                  <a
+                    id="more3"
+                    href="https://clementlii.github.io/cook-you.github.io/"
+                    target="_blank"
+                    >Web : Cook & You
+                  </a>
+                </div>
+
+                <div class="OrionGo">
+                  <article class="article">
+                    <img
+                      src="assets/img/orioapp_presentation.png"
+                      alt="Image de présentation de proejt UIUX OrionGo"
+                    />
+                  </article>
+                  <a
+                    id="more8"
+                    href="https://www.behance.net/gallery/126917329/UI-design-for-orion-go-%28app%29/"
+                    target="_blank"
+                    >UI : OrionGo
+                  </a>
+                </div>
+
+                <div class="OrionGo">
+                  <article class="article">
+                    <img src="assets/img/presentation urssaf.png" alt="" />
+                  </article>
+                  <a
+                    id="more7"
+                    href="https://www.behance.net/gallery/138541157/UI-Redesign-application-URSSAF-%28Fr%29"
+                    target="_blank"
+                    >UI : URSAFF
+                  </a>
+                </div>
+
+                <div class="OrionGo">
+                  <article class="article">
+                    <img src="assets/img/uiFoodApp.png" alt="" />x@
+                  </article>
+                  <a
+                    id="more5"
+                    href="https://www.behance.net/gallery/136479215/UI-Application-de-recettes-%28fr%29"
+                    target="_blank"
+                    >UI : Food app
+                  </a>
+                </div>
+
+                <div class="OrionGo">
+                  <article class="article">
+                    <img src="assets/img/uiFoodApp.png" alt="" />
+                  </article>
+                  <a
+                    id="more6"
+                    href="https://www.behance.net/gallery/136479215/UI-Application-de-recettes-%28fr%29"
+                    target="_blank"
+                    >UI : Food app
+                  </a>
+                </div>
+              </section>
+            </section>
+          </section>
+
+          <section id="contact">
+            <!--title-->
+            <h2 class="dark">contact</h2>
+            <div class="contactContainer">
+              <div class="form">
+                <div class="containerform">
+                  <form action="send.php">
+                    <input
+                      type="text"
+                      id="fname"
+                      name="firstname"
+                      placeholder="Votre nom et prénom"
+                    />
+                    <select name="prestation" id="selectionprestation">
+                      <option value="">Votre prestation</option>
+                      <option value="uiux">UI/UX design</option>
+                      <option value="inte">Intégration</option>
+                      <option value="Mesures">Sur mesures</option>
+                      <option value="Autre">Autre ?</option>
+                    </select>
+
+                    <input
+                      id="emailAddress"
+                      type="email"
+                      name="email"
+                      placeholder="Votre email"
+                    />
+
+                    <textarea
+                      id="subject"
+                      name="subject"
+                      placeholder="Votre message"
+                      style="height: 200px"
+                    ></textarea>
+
+                    <input type="submit" value="Envoyer" />
+                  </form>
+                </div>
               </div>
             </div>
-          </div>
-        </section>
+          </section>
+        </div>
       </div>
     </main>
     <footer>
